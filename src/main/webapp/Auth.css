@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+
+body {
+    background-color: #212426 !important;
+}
+
+#form {
+    width: 300px;
+    margin: 10vh auto 0 auto;
+    padding: 20px 20px 20px 30px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.alert-danger {
+    width: 350px !important;
+    margin: 5vh auto 0 auto !important;
+    text-align: center !important;
+}
+
+.title {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 3rem;
+    letter-spacing: 0.9px;
+    background: rgba(249, 211, 180, 1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+
+#form h2 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 92%;
+    color: white;
+    background-color: #101010;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 92%;
+}
+
+
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 13px;
+
+}

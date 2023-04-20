@@ -1,0 +1,140 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body,nav {
+    font-family: 'Poppins' !important;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline: black;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#dl a {
+    color: red;
+    text-decoration: none !important;
+}
+
+#dl a:hover {
+    color: black;
+}
+
+#so a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+#so a:hover {
+    color: white !important;
+}
+
+.search {
+    width: 60% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Table styles */
+table {
+    width: 60% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#livreEmpty {
+    width: 60% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+}
+
+#primkey {
+    width: 60% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 100px;
+}
+
+.navt {
+    color: black !important;
+    font-weight: 800 !important;
+    font-size: 25px !important;
+}
+
+.navlink {
+    color: #BFBFBF !important;
+    font-weight: 500 !important;
+}
+
+.blue{
+    color: black !important;
+    font-size: small;
+    text-decoration: none !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: black !important;
+}
+.navbar .navbar-nav .nav-item {
+    position: relative;
+}
+.underline::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: black;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.5s;
+}
+
+.active_link_line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    content: "";
+    height: 4px;
+}
+
+.active_link_color{
+    color: black !important;
+}
+
+
+
+.underline:hover::after {
+    width: 100%;
+}
+
+.menu {
+    text-align: right !important;
+    margin-right: 0 !important;
+}
+
+#create {
+    height: fit-content;
+}
